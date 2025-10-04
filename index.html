@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню ресторана</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Меню ресторана «Bon Appétit»</h1>
+        <nav>
+            <button onclick="filterMenu('all')">Все</button>
+            <button onclick="filterMenu('salad')">Салаты</button>
+            <button onclick="filterMenu('main')">Основные блюда</button>
+            <button onclick="filterMenu('dessert')">Десерты</button>
+        </nav>
+    </header>
+
+    <main id="menu">
+        <div class="item salad">
+            <h2>Цезарь с курицей</h2>
+            <p>Классический салат с соусом Цезарь, куриной грудкой и сухариками.</p>
+            <span class="price">420 ₽</span>
+        </div>
+
+        <div class="item main">
+            <h2>Паста Карбонара</h2>
+            <p>Паста с беконом, сливками и пармезаном.</p>
+            <span class="price">540 ₽</span>
+        </div>
+
+        <div class="item dessert">
+            <h2>Тирамису</h2>
+            <p>Итальянский десерт с маскарпоне и кофе.</p>
+            <span class="price">380 ₽</span>
+        </div>
+
+        <div class="item main">
+            <h2>Стейк Рибай</h2>
+            <p>Сочный стейк средней прожарки с картофелем и соусом.</p>
+            <span class="price">890 ₽</span>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Bon Appétit</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
