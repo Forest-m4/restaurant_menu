@@ -1,4 +1,3 @@
-[README (2).md](https://github.com/user-attachments/files/22699896/README.2.md)
 
 # Restaurant Menu
 
